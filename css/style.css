@@ -1,0 +1,357 @@
+body{
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif;
+background-image: url(https://klike.net/uploads/posts/2019-11/1572686505_2.jpg);
+display: flex;
+}
+.sidebar-About,.sidebar-Work,.sidebar-Info,.sidebar-Contact{
+color: beige;
+display: flex;
+justify-content:center;
+align-items: center;
+margin-left: -100px;
+}
+.sidebar{
+background-image: url(https://w7.pngwing.com/pngs/914/691/png-transparent-atmosphere-of-earth-sky-blue-daytime-dark-blue-background-blue-other-atmosphere.png);
+width: 305px ;
+height: 719px ;
+margin: -7px;
+position: fixed;
+z-index: 30;
+}
+.avatar{
+margin-top: 85px ;
+margin-left: 65px ;
+margin-bottom: 40px;
+}
+aside h3:hover{
+background-color: grey;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+.sidebar-About{
+padding: 15px;
+}
+.sidebar-Work{
+margin-left: -110px;
+padding: 15px;
+}
+.sidebar-Info{
+margin-left: -120px;
+padding: 15px;
+}
+.sidebar-Contact{
+margin-left: -95px;
+padding: 15px;
+}
+.sidebar-line{
+margin: 90px 0 0 0;
+font-size: 39px;
+color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+.About{
+width: 98vw;
+height: 98vh;
+position: absolute;
+}
+.About-h2{
+color: #fff;
+margin-left: 355px;
+margin-top: 50px;
+font-size: 35px;
+}
+.About-line{
+color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+margin: -65px 0 0 355px;
+font-size: 38px;
+}
+.name{
+color: #fff ;
+font-size: 90px;
+margin: 80px 0 0 355px;
+}
+.profession{
+color: aquamarine;
+margin: 0 0 0 355px;
+font-size: 30px;
+}
+.About-info{
+color: gray;
+margin: 30px 0 0 355px;
+font-size: 20px;
+}
+.fuchsia{
+color: #ff00ff;
+}
+.About-avatar{
+margin: -380px 0 0 980px;
+width: 350px;
+opacity: 0.15;
+}
+.q{
+margin-left: -975px;
+opacity: 0.7;
+}
+.Quotes{
+margin: -45px 0 0 465px;
+font-size: 35px;
+color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+opacity: 0.5;
+}
+.About-icon img {
+width: 6%;
+}
+.About-icon{
+margin: -185px 0 0 355px;   
+}
+.Work{
+position: absolute;
+}
+.hide{
+display: none;
+}
+.Work-h2{
+color: #fff;
+margin-left: 355px;
+margin-top: 50px;
+font-size: 35px;
+}
+.Work-line{
+font-size: 38px;
+margin: -65px 0 30px 355px;
+color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+a{
+text-decoration: none;
+}
+li{
+list-style-type: none;
+}
+.work1-img{
+width: 330px;
+height: 200px;
+margin-left: 360px;
+margin-right: 40px;
+margin-top: 50px;
+}
+.work2-img{
+width: 330px;
+height: 200px;
+margin-right: 40px;
+}
+.work3-img{
+width: 330px;
+height: 200px;
+}
+.work4-img{
+width: 330px;
+height: 200px;
+margin-left: 360px;
+margin-right: 40px;
+margin-top: 40px;
+}
+.work5-img{
+width: 330px;
+height: 200px;
+margin-right: 40px;
+}
+.work6-img{
+width: 330px;
+height: 200px;
+}
+.work1-text{
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+margin-left: 460px;
+margin-top: -300px;
+font-size: 25px;
+}
+.work2-text{
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+margin-left: 830px;
+margin-top: -55px;
+font-size: 25px;
+}
+.work3-text{
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+margin-left: 1240px;
+margin-top: -55px;
+font-size: 25px;
+}
+.work4-text{
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+margin-left: 460px;
+margin-top: 205px;
+font-size: 25px;
+}
+.work5-text{
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+margin-left: 850px;
+font-size: 25px;
+margin-top: -55px;
+}
+.work6-text{
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+margin-left: 1220px;
+font-size: 25px;
+margin-top: -55px;
+}
+.Info{
+position: absolute;
+}
+.Info-h2{
+color: #fff;
+margin-left: 355px;
+margin-top: 50px;
+font-size: 35px;
+}
+.Info-line{
+font-size: 38px;
+margin: -65px 0 30px 355px;
+color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+.information-1{
+color: #fff ;
+font-size: 90px;
+margin: 80px 0 30px 355px;
+font-size: 30px;
+}
+.information-2{
+color: #fff;
+margin: 0 0 0 355px;
+font-size: 20px;
+}
+.information-3{
+color: #fff;
+font-size: 25px;
+margin: 20px 0 0 355px;
+}
+.info-hobby{
+color: #fff;
+margin: 20px 0 0 360px;
+padding: 0;
+font-size: 25px;
+}
+.info-hobby-item{
+margin-bottom: 10px;
+}
+.qr-code{
+height: 292px;
+width: 310px;
+margin: -220px 0 0 1050px;
+border-radius: 10px;
+}
+.arrow{
+width: 210px;
+height: 250px;
+margin-left: 790px;
+margin-top: -280px;
+margin-bottom: 50px;
+}
+.Contact{
+position: absolute;
+}
+.Contact-h2{
+color: #fff;
+margin-left: 355px;
+margin-top: 50px;
+font-size: 35px;
+}
+.contact-line{
+font-size: 36px;
+margin: -65px 0 30px 355px;
+color: #ffffff;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ff00de, 0 0 80px #ff00de, 0 0 90px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+.icon-contact{
+margin: 100px 0 0 355px;
+display: flex;
+flex-direction: column;
+width: 50px;
+height: auto;
+}
+.icon-phone,.icon-instagram,.icon-telegram,.icon-viber,.icon-facebook,.icon-gmail{
+margin-bottom: 20px;
+filter: invert(100%)
+}
+.number{
+font-size: 25px;
+color: #ffffff;
+margin: -410px 0 0 215px;
+}
+.number a:hover{
+text-decoration: underline;
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;    
+}
+.instagram{
+margin-top: 40px;
+}
+.instagram-a{
+color: #ffffff;
+font-size: 25px;
+margin-left: 430px;
+}
+.instagram a:hover{
+text-decoration: underline;
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+.telegram{
+margin: 40px 0 0 430px ;
+}
+.telegram-a{
+color: #ffffff;
+font-size: 25px;
+}
+.telegram a:hover{
+text-decoration: underline;
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+.viber{
+margin: 40px 0 0 430px ;
+}
+.viber-a{
+color: #ffffff;
+font-size: 25px;
+}
+.viber a:hover{
+text-decoration: underline;
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+.facebook{
+margin: 35px 0 0 430px;
+}
+.facebook-a{
+color: #ffffff;
+font-size: 25px;
+}
+.facebook a:hover{
+text-decoration: underline;
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+.gmail{
+margin: 35px 0 0 430px;
+}
+.gmail-a{
+color: #ffffff;
+font-size: 25px
+}
+.gmail a:hover{
+text-decoration: underline;
+color: #ffffff;
+text-shadow: 0 0 5px #0000ff, 0 0 10px #0000ff, 0 0 20px #0000ff, 0 0 40px #0000ff, 0 0 80px #0000ff, 0 0 90px #0000ff, 0 0 100px #0000ff, 0 0 150px #0000ff;
+}
+
